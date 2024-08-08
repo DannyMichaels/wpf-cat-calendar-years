@@ -5,31 +5,8 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:local="clr-namespace:WPFCatCalendarYears"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Name="windowMain"
     Title="MainWindow"
     Width="800"
     Height="300"
-    mc:Ignorable="d">
-    <StackPanel Orientation="Vertical">
-        <StackPanel Orientation="Horizontal">
-            <TextBlock FontSize="18" Text="How old is your cat? (years)" />
-            <TextBox
-                x:Name="txtCatAge"
-                Width="150"
-                Margin="5,0,0,0"
-                FontSize="16"
-                KeyDown="txtCatAge_KeyDown"
-                TextAlignment="Center" />
-        </StackPanel>
-        <TextBlock
-            Name="resultTextBlock"
-            FontSize="18"
-            Text="Your cat is" />
-        <Image
-            Name="MyImg"
-            Width="200"
-            Height="200"
-            HorizontalAlignment="Left"
-            VerticalAlignment="Top"
-            Source="/images/cat.jpg" />
-    </StackPanel>
-</Window>
+    mc:Ignorable="d" />
